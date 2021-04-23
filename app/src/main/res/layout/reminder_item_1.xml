@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TITLE : "
+        android:textColor="#070707"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/remDateTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATE :"
+        android:textColor="#070707"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/remTimeTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time : "
+        android:textColor="#070707"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descriptionTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DESCRIPTION :  "
+        android:textColor="#070707"
+        android:textStyle="bold" />
+
+</LinearLayout>

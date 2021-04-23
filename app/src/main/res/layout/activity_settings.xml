@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="TIME TO DISPLAY THE REMINDER"
+        android:textColor="#EA1111"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:layout_width="164dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10">
+
+        <RadioButton
+            android:id="@+id/before10R"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="radioClick"
+            android:text="Before 10 minutes" />
+
+        <RadioButton
+            android:id="@+id/before30R"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="radioClick"
+            android:text="Before 30 minutes" />
+
+        <RadioButton
+            android:id="@+id/before60R"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="radioClick"
+            android:text="Before 1 hour" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
